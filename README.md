@@ -46,7 +46,7 @@ The person erasing work may not be aware of what they've done! But no worries.
 In case you and a teammate were accidentally working in the same files, you'll see this when you merge main into your branch. VS Code will highlight all merge conflicts. 
 
 1. Call your teammate in and work together to see what code should be kept or deleted. 
-2. After merge conflicts are handled, you can continue working.
+2. After merge conflicts are handled, you can continue working. Remembering to remind one another what files you're currently working on.
 
 ### AS A TEAMMATE WHO SEES A MERGE CONFLICT PREVENTING A PULL REQUEST
 
