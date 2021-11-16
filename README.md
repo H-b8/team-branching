@@ -19,7 +19,7 @@
     - Create pull request
     - See that there are no merge conflicts
     - Click the "Merge pull request" button
-7. VERY IMPORTANT! After you do this alert your team that a new merge has been made
+7. **VERY IMPORTANT! After you do this alert your team that a new merge has been made**
 
 ## AFTER A TEAMMATE MERGES
 
@@ -29,7 +29,7 @@
 4. Merge the new changes from main into your own branch using `git merge origin main`
 5. Contine working
 
-This is also VERY IMPORTANT! If you forget to do this, there is a chance you could erase a teammates work from main if you commit and merge your code at a later time, that doesn't contain their work. 
+**This is also VERY IMPORTANT! If you forget to do this, there is a chance you could erase a teammates work from main if you commit and merge your code at a later time, that doesn't contain their work.**
 
 ## HANDLING ACCIDENTALLY OVERWRITING YOUR TEAMMATE'S WORK
 
