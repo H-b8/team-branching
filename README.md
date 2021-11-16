@@ -23,7 +23,7 @@
 
 ## AFTER A TEAMMATE MERGES
 
-1. In VS Code, switch from your branch to main using `git checkout main`
+1. In VS Code, switch from `your-branch` to `main` using `git checkout main`
 2. Pull from main using `git pull origin main`
 3. Switch back to your own branch using `git checkout your-branch`
 4. Merge the new changes from main into your own branch using `git merge origin main`
