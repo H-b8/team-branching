@@ -19,7 +19,7 @@
     - Create pull request
     - See that there are no merge conflicts
     - Click the "Merge pull request" button
-7. **VERY IMPORTANT! After you do this alert your team that a new merge has been made**
+7. **VERY IMPORTANT! After you do this, alert your team that a new merge has been made**
 
 ## AFTER A TEAMMATE MERGES
 
