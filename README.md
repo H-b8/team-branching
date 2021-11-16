@@ -35,9 +35,9 @@
 
 The person erasing work may not be aware of what they've done! But no worries.
 
-1. If you pull from `main` and merge and see any of your work disappear, you should be able to CMD/CTRL+Z that file to get it back right away.
+1. If you pull from `main` and see any of your work disappear after merging into your own branch, you should be able to CMD/CTRL+Z that file to get it back right away.
 2. Commit and create a pull request, and merge your code back into `main`
-3. Tell your teammates to pull and merge into their branches.
+3. Tell your teammates to pull `main` and merge into their branches.
 
 ## HANDLING MERGE CONFLICTS
 
