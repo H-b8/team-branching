@@ -5,7 +5,7 @@
 1. Each person will clone the repo to their machine
 2. By default you will be on the ```main``` branch
 3. Checkout to your own branch using ```git checkout -b your-branch-name```
-4. TO AVOID MERGE CONFLICTS: Xommunicate amongst yourselves to ensure you aren't working on the same files
+4. TO AVOID MERGE CONFLICTS: Communicate amongst yourselves to ensure you aren't working on the same files
 5. When finished with the piece you're working on, commit and push your code
     ```
     git add -A   
