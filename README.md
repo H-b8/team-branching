@@ -3,8 +3,8 @@
 ## WORKING ON YOUR OWN BRANCH
 
 1. Each person will clone the repo to their machine
-2. By default you will be on the ```main``` branch
-3. Checkout to your own branch using ```git checkout -b your-branch-name```
+2. By default you will be on the `main` branch
+3. Checkout to your own branch using `git checkout -b your-branch-name`
 4. TO AVOID MERGE CONFLICTS: Communicate amongst yourselves to ensure you aren't working on the same files
 5. When finished with the piece you're working on, commit and push your code
     ```
@@ -23,9 +23,9 @@
 
 ## AFTER A TEAMMATE MERGES
 
-1. In VS Code, switch from `your-branch` to `main` using `git checkout main`
+1. In VS Code, switch from your branch to main using `git checkout main`
 2. Pull from main using `git pull origin main`
-3. Switch back to your own branch using `git checkout your-branch`
+3. Switch back to your branch using `git checkout your-branch`
 4. Merge the new changes from main into your own branch using `git merge origin main`
 5. Contine working
 
