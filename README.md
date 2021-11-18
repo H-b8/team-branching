@@ -27,7 +27,8 @@
 2. Pull from main using `git pull origin main`
 3. Switch back to your branch using `git checkout your-branch`
 4. Merge the new changes from main into your own branch using `git merge origin main`
-5. Continue working
+5. Run `npm i` in your terminal if they installed any new packages
+6. Continue working
 
 **This is also VERY IMPORTANT! If you forget to do this, there is a chance you could erase a teammates work from main if you commit and merge your code at a later time, that doesn't contain their work.**
 
