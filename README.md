@@ -12,7 +12,7 @@
     git commit -m "a description of what feature you've completed"
     git push origin your-branch-name
     ``` 
-6. Make a pull request
+6. Make a pull request on GitHub
     - Go to the pull request tab of your repo
     - Click the "New pull request" button
     - Choose your branch
@@ -23,12 +23,13 @@
 
 ## AFTER A TEAMMATE MERGES
 
-1. In VS Code, switch from your branch to main using `git checkout main`
-2. Pull from main using `git pull origin main`
-3. Switch back to your branch using `git checkout your-branch`
-4. Merge the new changes from main into your own branch using `git merge origin main`
-5. Run `npm i` in your terminal if they installed any new packages
-6. Continue working
+1. In your terminal, save what you're working on by running `git stash`
+2. Switch from your branch to main using `git checkout main`
+3. Pull from main using `git pull origin main`
+4. Switch back to your branch using `git checkout your-branch-name`
+5. Merge the new changes from main into your own branch using `git merge origin main`
+6. Run `npm i` in your terminal if they installed any new packages
+7. Continue working
 
 **This is also VERY IMPORTANT! If you forget to do this, there is a chance you could erase a teammates work from main if you commit and merge your code at a later time, that doesn't contain their work.**
 
@@ -37,21 +38,21 @@
 The person erasing work may not be aware of what they've done! But no worries.
 
 1. If you pull from `main` and see any of your work disappear after merging into your own branch, you should be able to CMD/CTRL+Z that file to get it back right away.
-2. Commit and create a pull request, and merge your code back into `main`
-3. Tell your teammates to pull `main` and merge into their branches.
+2. Commit and create a pull request, then merge your code back into `main`
+3. Tell your teammates to pull `main` and merge into their branches before continuing!
 
 ## HANDLING MERGE CONFLICTS
 
 ### AS A TEAMMATE WHO IS MERGING MAIN INTO THEIR OWN BRANCH
 
-In case you and a teammate were accidentally working in the same files, you'll see this when you merge main into your branch. VS Code will highlight all merge conflicts. 
+In case you and a teammate were accidentally working in the same files, you'll see this when you merge main into your branch. Your code editor should highlight all merge conflicts. 
 
 1. Call your teammate in and work together to see what code should be kept or deleted. 
 2. After merge conflicts are handled, you can continue working. Remembering to remind one another what files you're currently working on.
 
 ### AS A TEAMMATE WHO SEES A MERGE CONFLICT PREVENTING A PULL REQUEST
 
-This is usually because your code isn't up to date with `main`
+This is usually because your code isn't up to date with what `main` was when your teammate last pulled
 
 1. Go back to your terminal and perform the steps above for "AFTER A TEAMMATE MERGES"
 2. If there are any merge conflicts, sort them out with your teammate who was working on those files
