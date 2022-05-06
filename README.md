@@ -21,7 +21,7 @@
     - Click the "Merge pull request" button
 7. **VERY IMPORTANT! After you do this, alert your team that a new merge has been made**
 
-## AFTER A TEAMMATE MERGES
+## AFTER NEW CODE IS MERGED
 
 1. In your terminal, save what you're working on by running `git stash`
 2. Switch from your branch to main using `git checkout main`
@@ -43,14 +43,29 @@ The person erasing work may not be aware of what they've done! But no worries.
 
 ## HANDLING MERGE CONFLICTS
 
+### REVIEWING A TEAMMATE'S PULL REQUEST
+
+1. To ensure you aren't creating any merge conflicts on your end,
+    ```
+    git stash
+    git checkout main
+    git pull origin main
+    git checkout -b teammates-branch-name
+    git fetch origin teammates-branch-name
+    git reset --hard origin/teammates-branch-name
+    ```
+2. If you find any merge conflicts at this point, ask your teammate to make sure they have the latest version of `main`, to merge it into their branch and handle merge conflicts on their end before pushing up again.
+3. `git pull origin teammates-branch-name`
+4. Continue your review.
+
 ### AS A TEAMMATE WHO IS MERGING MAIN INTO THEIR OWN BRANCH
 
-In case you and a teammate were accidentally working in the same files, you'll see this when you merge main into your branch. Your code editor should highlight all merge conflicts. 
+In the case that you and a teammate were accidentally working on the same files, and they merged before you, you'll see this when you merge main into your branch. Your code editor should highlight all merge conflicts. 
 
 1. Call your teammate in and work together to see what code should be kept or deleted. 
-2. After merge conflicts are handled, you can continue working. Remembering to remind one another what files you're currently working on.
+2. After merge conflicts are handled, you can continue working. Remembering to remind one another what files you're currently working on!
 
-### AS A TEAMMATE WHO SEES A MERGE CONFLICT PREVENTING A PULL REQUEST
+### AS A TEAMMATE WHO SEES A MERGE CONFLICT PREVENTING THE CREATION OF A PULL REQUEST
 
 This is usually because your code isn't up to date with what `main` was when your teammate last pulled
 
